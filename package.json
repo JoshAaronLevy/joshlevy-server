@@ -1,9 +1,10 @@
 {
-  "name": "portfolio-server",
-  "version": "1.0.0",
+  "name": "joshlevy-server",
+  "version": "1.1.0",
   "description": "Josh Levy Portfolio Server",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
