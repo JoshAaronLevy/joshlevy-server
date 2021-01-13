@@ -5,10 +5,12 @@ exports.up = function (knex, Promise) {
     projects.string('date');
     projects.string('snippet');
     projects.text('description');
-    projects.string('gifURL');
-    projects.string('youtubeURL');
-    projects.string('deployedURL');
-    projects.string('githubURL');
+    projects.string('gifUrl');
+    projects.string('youtubeUrl');
+    projects.string('deployedUrl');
+    projects.string('githubUrl');
+    projects.json('stack');
+    projects.string('codeSnippetUrl');
   });
 };
 
