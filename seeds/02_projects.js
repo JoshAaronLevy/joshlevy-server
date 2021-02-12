@@ -28,14 +28,14 @@ exports.seed = function (knex, Promise) {
         codeSnippetUrl: ''
       }, {
         id: 3,
-        name: 'Imposter Coding',
+        name: 'Impostor Coding',
         date: '2018-10-20',
-        snippet: `Embrace your Imposter Syndrome.`,
+        snippet: `Embrace your Impostor Syndrome.`,
         description: `A blog about all things web development.`,
         gifUrl: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/projects/React-Logo.png',
         youtubeUrl: null,
-        deployedUrl: 'https://impostercoding.com/',
-        githubUrl: 'https://github.com/JoshAaronLevy/impostercoding',
+        deployedUrl: 'https://impostorcoding.com/',
+        githubUrl: 'https://github.com/JoshAaronLevy/impostorcoding',
         stack: {},
         codeSnippetUrl: ''
       }, {
