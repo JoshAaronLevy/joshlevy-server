@@ -11,5 +11,5 @@ exports.seed = function (knex, Promise) {
           description: {}
         }
       ]);
-    }).then(() => knex.raw(`ALTER SEQUENCE jobs_id_seq RESTART WITH 2;`));
+    });
 };
