@@ -4,11 +4,15 @@
   "description": "Josh Levy Portfolio Server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Josh Levy",
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/JoshAaronLevy/joshlevy-server"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
