@@ -5,7 +5,7 @@ exports.up = function (knex, Promise) {
     jobs.string('title');
     jobs.string('startDate');
     jobs.string('endDate');
-    jobs.json('description');
+    jobs.jsonb('description');
   });
 };
 
