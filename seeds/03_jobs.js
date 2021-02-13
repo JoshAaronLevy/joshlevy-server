@@ -44,6 +44,20 @@ exports.seed = function (knex, Promise) {
               'Created and managed over 20 SEM and paid advertising campaigns, yieldinga 59% increase in ad revenue for clients.'
             ]
           }
+        },
+        {
+          id: 4,
+          company: 'Hillside Software',
+          title: 'Marketing and Training Manager',
+          startDate: '12/01/2004',
+          endDate: '03/30/2013',
+          description: {
+            responsibilities: [
+              'Led QA reporting between development, support staff and clients.',
+              'Created SEO content for over 100 client websites.',
+              'Delivered over 100 technical training presentations.'
+            ]
+          }
         }
       ]);
     });
