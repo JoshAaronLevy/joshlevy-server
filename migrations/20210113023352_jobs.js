@@ -3,9 +3,9 @@ exports.up = function (knex, Promise) {
     jobs.increments();
     jobs.string('company');
     jobs.string('title');
-    jobs.date('startDate');
-    jobs.date('endDate');
-    jobs.json('description');
+    jobs.string('startDate');
+    jobs.string('endDate');
+    jobs.array('description');
   });
 };
 
