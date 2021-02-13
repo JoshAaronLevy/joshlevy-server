@@ -9,11 +9,23 @@ exports.seed = function (knex, Promise) {
           startDate: '11/21/2018',
           endDate: 'Current',
           description: {
-            responsibilities: [
-              'Designed, developed, and currently maintain an end-to-end enterprise-scale UI in Angular 7, from inception to MVP delivery ahead of schedule.',
-              'Manage two junior developers, helping grow their skills, while delegating user stories that will maximize their impact for their skill level.',
-              'Work closely with the business-side daily to determine user stories and priorities, while adhering to strict rules and regulations in the healthcare sector.',
-              'Deliver bi-weekly presentations of the UI to business management, demonstrating the consistent development of the product centered around business value.'
+            results: [
+              {
+                id: 1,
+                responsibility: 'Designed, developed, and currently maintain an end-to-end enterprise-scale UI in Angular 7, from inception to MVP delivery ahead of schedule.'
+              },
+              {
+                id: 2,
+                responsibility: 'Manage two junior developers, helping grow their skills, while delegating user stories that will maximize their impact for their skill level.'
+              },
+              {
+                id: 3,
+                responsibility: 'Work closely with the business-side daily to determine user stories and priorities, while adhering to strict rules and regulations in the healthcare sector.'
+              },
+              {
+                id: 4,
+                responsibility: 'Deliver bi-weekly presentations of the UI to business management, demonstrating the consistent development of the product centered around business value.'
+              }
             ]
           }
         },
@@ -24,10 +36,19 @@ exports.seed = function (knex, Promise) {
           startDate: '05/01/2018',
           endDate: '10/30/2018',
           description: {
-            responsibilities: [
-              'One of three volunteer lead instructors of a weekly Learn to Code program.',
-              'Delivered engaging classroom lectures on HTML, CSS and VanillaJS tostudents brand new to coding.',
-              'Managed and developed the Teaching Assistants.'
+            results: [
+              {
+                id: 1,
+                responsibility: 'One of three volunteer lead instructors of a weekly Learn to Code program.'
+              },
+              {
+                id: 2,
+                responsibility: 'Delivered engaging classroom lectures on HTML, CSS and VanillaJS tostudents brand new to coding.'
+              },
+              {
+                id: 3,
+                responsibility: 'Managed and developed the Teaching Assistants.'
+              }
             ]
           }
         },
@@ -38,10 +59,19 @@ exports.seed = function (knex, Promise) {
           startDate: '04/01/2014',
           endDate: '08/30/2017',
           description: {
-            responsibilities: [
-              'Developed a full-stack web app with AngularJS, NodeJS and Parse.',
-              'Developed and maintained four separate client sites in WordPress, adheringto strict deadlines.',
-              'Created and managed over 20 SEM and paid advertising campaigns, yieldinga 59% increase in ad revenue for clients.'
+            results: [
+              {
+                id: 1,
+                responsibility: 'Developed a full-stack web app with AngularJS, NodeJS and Parse.'
+              },
+              {
+                id: 2,
+                responsibility: 'Developed and maintained four separate client sites in WordPress, adheringto strict deadlines.'
+              },
+              {
+                id: 3,
+                responsibility: 'Created and managed over 20 SEM and paid advertising campaigns, yieldinga 59% increase in ad revenue for clients.'
+              }
             ]
           }
         },
@@ -52,10 +82,19 @@ exports.seed = function (knex, Promise) {
           startDate: '12/01/2004',
           endDate: '03/30/2013',
           description: {
-            responsibilities: [
-              'Led QA reporting between development, support staff and clients.',
-              'Created SEO content for over 100 client websites.',
-              'Delivered over 100 technical training presentations.'
+            results: [
+              {
+                id: 1,
+                responsibility: 'Led QA reporting between development, support staff and clients.'
+              },
+              {
+                id: 2,
+                responsibility: 'Created SEO content for over 100 client websites.'
+              },
+              {
+                id: 3,
+                responsibility: 'Delivered over 100 technical training presentations.'
+              }
             ]
           }
         }
