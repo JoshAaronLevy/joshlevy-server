@@ -5,7 +5,7 @@ exports.seed = function (knex, Promise) {
         id: 1,
         name: 'Angular 6+',
         type: 'Front-End',
-        experience: '3 years',
+        experience: '5 years',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/Angular-Logo.png'
       }, {
         id: 2,
@@ -23,19 +23,19 @@ exports.seed = function (knex, Promise) {
         id: 4,
         name: 'Node.js',
         type: 'Back-End',
-        experience: '2 years',
+        experience: '3 years',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/NodeJS-Logo.png'
       }, {
         id: 5,
         name: 'JavaScript',
         type: 'Front/Back-End',
-        experience: '6 years',
+        experience: '7 years',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/JavaScript-Logo.png'
       }, {
         id: 6,
         name: 'TypeScript',
         type: 'Front-End',
-        experience: '3 years',
+        experience: '4 years',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/TypeScript-Logo.png'
       }, {
         id: 7,
@@ -95,7 +95,7 @@ exports.seed = function (knex, Promise) {
         id: 16,
         name: 'Passport.js',
         type: 'Back-End',
-        experience: '>1 year',
+        experience: '1 year',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/Passport-Logo.png'
       }, {
         id: 17,
@@ -107,7 +107,7 @@ exports.seed = function (knex, Promise) {
         id: 18,
         name: 'RESTful API',
         type: 'Back-End',
-        experience: '4 Years',
+        experience: '5 Years',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/RestAPI-Logo.png'
       }, {
         id: 19,
@@ -131,7 +131,7 @@ exports.seed = function (knex, Promise) {
         id: 22,
         name: 'Heroku',
         type: 'Back-End',
-        experience: '2 years',
+        experience: '3 years',
         img: 'https://joshlevyportfolio.s3-us-west-2.amazonaws.com/skills/Heroku-Logo.png'
       }, {
         id: 23,
