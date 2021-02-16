@@ -3,6 +3,7 @@ exports.up = function (knex, Promise) {
     jobs.increments();
     jobs.string('company');
     jobs.string('title');
+    jobs.string('shortTitle');
     jobs.string('startDate');
     jobs.string('endDate');
     jobs.jsonb('description');

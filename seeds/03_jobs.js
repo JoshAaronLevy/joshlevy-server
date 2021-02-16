@@ -6,6 +6,7 @@ exports.seed = function (knex, Promise) {
           id: 1,
           company: 'Accenture',
           title: 'Sr. Front-End Developer',
+          shortTitle: 'Sr. UI Developer',
           startDate: '11/21/2018',
           endDate: 'Current',
           description: {
@@ -31,8 +32,9 @@ exports.seed = function (knex, Promise) {
         },
         {
           id: 2,
-          company: 'Galvanize - Learn to Code',
+          company: 'Galvanize',
           title: 'Co-Organizer/Lead Instructor',
+          shortTitle: 'Lead Instructor',
           startDate: '05/01/2018',
           endDate: '10/30/2018',
           description: {
@@ -56,6 +58,7 @@ exports.seed = function (knex, Promise) {
           id: 3,
           company: 'Freelance',
           title: 'Web Designer/Developer',
+          shortTitle: 'Web Developer',
           startDate: '04/01/2014',
           endDate: '08/30/2017',
           description: {
@@ -79,6 +82,7 @@ exports.seed = function (knex, Promise) {
           id: 4,
           company: 'Hillside Software',
           title: 'Marketing and Training Manager',
+          shortTitle: 'Training Manager',
           startDate: '12/01/2004',
           endDate: '03/30/2013',
           description: {
